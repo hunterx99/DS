@@ -1,6 +1,6 @@
 public class sampleTree {
-    Node root;
-public static class Node{
+    static Node root;
+    public static class Node{
     int data;
     Node right,left;
     public Node(int data){
@@ -10,11 +10,17 @@ public static class Node{
 }
 
 public static void main(String[] args) {
-   sampleTree tree=new sampleTree();
-    tree.root =new Node(4);
-    tree.root.left=new Node(5);
-    tree.root.right=new Node(6);
-    tree.root.left.right=new Node(7);
-    tree.root.left.left=new Node(8);
-}   
+    root =new Node(4);
+    root.left=new Node(5);
+    root.right=new Node(6);
+    root.left.right=new Node(7);
+    root.left.left=new Node(8);
+    }   
 }
+/*
+            4
+           / \
+          5   6
+         / \
+        8   7
+*/
