@@ -18,7 +18,7 @@ public class minDepth {
                                         : Math.min(leftlength,rightlength)+1;
     }
     public static void main(String[] args) {
-        /* root =new Node(4);
+      /*   root =new Node(4);
         root.left=new Node(5);
         root.right=new Node(6);
         root.left.right=new Node(7);

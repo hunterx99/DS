@@ -48,3 +48,10 @@ public class treetraversal {
         System.out.println();
     }
 }
+/* 
+             4
+          /     \
+        5        6
+       / \
+      8   7
+ */
